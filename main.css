@@ -1,0 +1,162 @@
+/* BEGIN -------------------Mise en page globaux */
+ul{
+	list-style: none; 
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover {
+	text-decoration: underline;
+
+/* END ---------------------Mise en page globaux */
+
+
+/* BEGIN -------------------Mise en page BODY*/
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+	flex-direction: column;
+	display: flex;
+}
+
+
+	/* BEGIN -------------------Mise en page HEADER */
+	header{
+	display: flex;
+	
+	justify-content: flex-end;
+	}
+		/* -----------------Mise en page NAV */
+		.nav1{
+		
+		width: 300px;
+		height: 46px;
+
+		}
+			/* -------------Mise en page UL */
+			.ulheader{
+			
+			display: flex;
+			justify-content: space-between;
+			padding-right: 20px;
+			font-size: small;
+			color: black;
+			}
+	/* FIN -------------------Mise en page HEADER */
+
+
+	/* BEGIN -------------------Mise en page MIDDLE*/
+	.middle{
+	display: flex;
+	flex-direction: column;
+	min-height: 460px;
+	justify-content: center;
+	text-align: center;
+	}
+
+		/* BEGIN ---------------Mise en page BUTTONS */
+		#buttons{
+		display: flex;
+		justify-content: space-between;
+		justify-content: center;
+		margin-top: 25px;
+		}
+
+			/* -----------------Mise en page BOUTON 1 */
+			#B1{
+			height: 40px;
+			width: auto;
+			border: none;
+			border-radius: 3px 3px 3px 3px;
+			background-color: #EBEBEB;
+			}
+
+			/* -----------------Mise en page BOUTON 2 */
+			#B2{
+			height: 40px;
+			width: auto;
+			border: none;
+			border-radius: 3px 3px 3px 3px;
+			background-color: #EBEBEB;
+			}
+		/* END -----------------Mise en page BUTTONS */	
+	
+
+		/* BEGIN ---------------Mise en page BARRE */
+		#form-search {
+
+		border: solid 1px #EBEBEB;
+		border-radius: 10px 10px 10px 10px;
+		width: 490px;
+		line-height: 32px;
+		padding: 20px 10px;
+		}
+
+		.form, #form-search {
+ 		padding: 0 8px;
+		}
+		/* END -----------------Mise en page BARRE */
+
+	/* END ---------------------Mise en page MIDDLE*/
+
+	/* BEGIN -------------------Mise en page FOOTER*/
+
+	footer{
+		display: flex;
+		flex-direction: column;
+		border-top: solid 1px #e4e4e4;
+		bottom: 0;
+		width: 100%;
+		position: absolute;
+		height: 94px;
+	}
+	
+		/* BEGIN ---------------Mise en page DIV2 */
+		.div2{
+		display: flex;
+		border-top: solid 1px #e4e4e4;
+		color: #8F8F8F;
+		justify-content: space-between;
+		background-color: #EBEBEB;
+		height: 47px;
+		font-size: small;
+		}
+	
+			/* -----------------Mise en page BOX BOTTON LEFT */		
+			.ulfootleft{
+			
+			padding: 15px 0 15px 20px;
+			display: flex;
+			color: #8F8F8F;
+			width: 250px;
+			justify-content: space-between;
+			}
+	
+			/* -----------------Mise en page BOX BOTTON RIGHT */		
+			.ulfootright{
+			padding: 15px 20px 15px 0;
+			display: flex;
+			width: 500px;
+			color: #8F8F8F;
+			justify-content: space-between;
+			}
+		/* END -----------------Mise en page DIV2 */
+		
+		/* ---------------------Mise en page "FRANCE" */
+		.france{
+		height: 47px;
+		padding-left: 20px;
+		color: #8F8F8F;
+		background-color: #EBEBEB;
+		}
+
+	/* END ---------------------Mise en page FOOTER*/
+/* END ---------------------Mise en page BODY */
+
+
+
+
