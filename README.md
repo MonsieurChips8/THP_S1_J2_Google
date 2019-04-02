@@ -12,6 +12,7 @@ Binôme:
 Tu veux avoir le zizi tout dur ?
 
 Changes la taille de la fenêtre !!
+(Et si ça fonctionne pas tu peux toujours cliquer sur le logo "Application" en haut a droite :D)
 
 "Wow, un site responsif !!!
 Quel talent !! 0_o".
